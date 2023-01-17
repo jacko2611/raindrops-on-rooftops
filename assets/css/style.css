@@ -5,7 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #222;
+    /* background: #222; */
+    background-image: url("../../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .card {
@@ -56,3 +60,18 @@ button {
     display: flex;
     align-items: center;
 }
+
+/* .weather-loading {
+    visibility: hidden;
+    max-height: 5px;
+}
+
+.weather-loading:after {
+    visibility: visible;
+    content: "Search for a city.";
+    color: #eaeaea;
+    position: absolute;
+    top: 0;
+    left: 5px;
+} */
+
