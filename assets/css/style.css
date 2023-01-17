@@ -47,3 +47,12 @@ button {
     font-family: inherit;
     font-size: 120%;
 }
+
+.description {
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
